@@ -7,4 +7,10 @@ aws codecommit create-repository --repository-name fiaprepo --repository-descrip
 git config --global credential.helper '!aws codecommit credential-helper $@'
 git config --global credential.UseHttpPath true
 
+# To view a list of CodeCommit repositories
+
+aws codecommit list-repositories
+
+aws codecommit get-repository --repository-name fiaprepo
+
 # git clone CLONE_URL
