@@ -2,5 +2,7 @@
 
 aws codecommit create-repository --repository-name fiaprepo --repository-description "Repositorio codigo LABs." --region us-east-1
 
+# Connect Your Environment to the Remote Repository
+
 git config --global credential.helper '!aws codecommit credential-helper $@'
 git config --global credential.UseHttpPath true
