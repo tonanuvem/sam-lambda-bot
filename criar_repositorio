@@ -6,3 +6,5 @@ aws codecommit create-repository --repository-name fiaprepo --repository-descrip
 
 git config --global credential.helper '!aws codecommit credential-helper $@'
 git config --global credential.UseHttpPath true
+
+# git clone CLONE_URL
