@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Create a Repository in CodeCommit Using the AWS CLI
 
 aws codecommit create-repository --repository-name fiaprepo --repository-description "Repositorio codigo LABs." --region us-east-1
